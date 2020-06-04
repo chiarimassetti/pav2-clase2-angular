@@ -1,5 +1,5 @@
-<input type="button" (click)='MostrarGrilla' value="Mostrar Gilla"/>
-<table class="table table-striped">
+<input type="button" (click)='MostrarOcultarGrilla' [value]='mensajeBoton'/>
+<table class="table table-striped" *ngIf='verGrilla' >
   <thead class="thead-inverse">
     <tr>
       <th>ID del articulo</th>
