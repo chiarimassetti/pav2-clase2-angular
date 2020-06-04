@@ -11,7 +11,6 @@ export class PrincipalComponent implements OnInit {
   materia: "PAV II";
   verMateria = true;
   logo = 'https://www.frc.utn.edu.ar/imagenes/logoutn.gif';
-  colorParrafo = 'red';
 
   constructor() { }
 
